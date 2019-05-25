@@ -50,13 +50,20 @@ export default {
 </script>
 
 <style scoped>
+/* @media only screen and (max-width: 600px) { 
+
+ } */
+
+ /* @media only screen and (max-width: 600px) { 
+
+ } */
 .main_background{
   margin-top: 20px;
   margin-bottom: -100px;
 }
 .main_page_left img {
   height: 800px;
-  width: 530px;
+  width: 100%;
   margin-top: -170px;
 }
 

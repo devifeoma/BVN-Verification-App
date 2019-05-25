@@ -55,8 +55,8 @@ export default {
         bvn: this.user.bvn
       };
       console.log("my bvn", this.user.bvn.length);
-      if(this.user.bvn.length < 11){
-        swal("Please enter a complete BVN number");
+      if(this.user.bvn.length < 11 || this.user.bvn.length > 11){
+        swal("Please enter a complete a valid BVN number");
         return (false);
       }
       axios
@@ -94,7 +94,7 @@ export default {
 }
 .main_page_left img {
   height: 800px;
-  width: 530px;
+  width: 100%;
   margin-top: -170px;
 }
 

@@ -85,7 +85,7 @@ export default {
 }
 .main_page_left img {
   height: 800px;
-  width: 530px;
+  width: 100%;
   margin-top: -170px;
 }
 

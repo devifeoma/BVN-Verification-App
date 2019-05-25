@@ -19,9 +19,9 @@
           <li class="nav-item active">
             <router-link to="/Bvn" class="nav-link btn pay_botton">Verify your BVN here</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link pay_botton">|</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <router-link to="/Pay-for-ride" class="nav-link btn pay_botton">Pay for Ride</router-link>
           </li>
