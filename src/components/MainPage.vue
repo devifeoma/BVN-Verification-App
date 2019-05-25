@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-6 main_page_right">
           <h1 class="text-center rave_text">Welcome to RaveRide</h1>
-          <p class="rave_text_p">Rave Ride is a simple and easy application that makes payment easy and smooth for you. You can login to to your RaveRide application by just using your Bank Verification Number(BVN). RaveRide is th easy way for life.</p>
+          <p class="rave_text_p">Rave Ride is a simple and easy application that makes payment easy and smooth for our customers. You can access your RaveRide application by just using your Bank Verification Number(BVN). RaveRide makes life easy.</p>
           <div class="text-center"><a class="btn rave_button">Get Started</a></div>
         </div>
       </div>
