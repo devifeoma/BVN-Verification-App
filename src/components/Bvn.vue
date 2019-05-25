@@ -56,7 +56,7 @@ export default {
       };
       console.log("my bvn", this.user.bvn.length);
       if(this.user.bvn.length < 11 || this.user.bvn.length > 11){
-        swal("Please enter a complete a valid BVN number");
+        swal("Please enter a valid BVN number");
         return (false);
       }
       axios
