@@ -50,6 +50,15 @@ export default {
   },
 
   methods: {
+    start() {
+      this.$Progress.start();
+    },
+    finish() {
+      this.$Progress.finish();
+    },
+    fail() {
+      this.$Progress.fail();
+    },
     verifyUser() {
       let verifyUser = {
         bvn: this.user.bvn
@@ -59,12 +68,14 @@ export default {
         swal("Please enter a valid BVN number");
         return (false);
       }
+       this.$Progress.start();
       axios
         .get(
           "https://ravesandboxapi.flutterwave.com/v2/kyc/bvn/12345678901?seckey=FLWSECK-e6db11d1f8a6208de8cb2f94e293450e-X"
         )
         .then(res => {
           console.log(res.data);
+           this.$Progress.finish();
           swal({
             title: "Your BVN is successfully verified",
             // text: "You clicked the button!",
@@ -73,6 +84,7 @@ export default {
           });
         })
         .catch(err => {
+          this.$Progress.fail();
           console.log(err);
           swal({
             title: "Sorry your BNV is not valid",

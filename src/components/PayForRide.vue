@@ -11,10 +11,11 @@
               
             <p><i class="fas fa-user pr-3"></i><strong>Driver:</strong> Damilola Sherriff</p>
             <p><i class="fas fa-receipt pr-3"></i><strong>Invoice Id:</strong> we56779uhj</p>
+             <p class="pl-6"><i class="fas fa-location-arrow pr-3"></i><strong>Location:</strong>6 Badore Ajah, Lagos</p>
             <p class="pl-6"><i class="fas fa-location-arrow pr-3"></i><strong>Destination:</strong> 8 Providence Street, Lekki</p>
             <p><i class="fas fa-clock pr-3"></i><strong>Duration:</strong> 30mins</p>
             <p><i class="fas fa-motorcycle pr-3"></i><strong>Distance:</strong> 24km</p>
-            <p><i class="fas fa-money-bill-alt pr-3"></i><strong>Amount:</strong> N1500</p>
+            <p><i class="fas fa-money-bill-alt pr-3"></i><strong>Amount:</strong> N2000</p>
             </div>
 
             <form>
@@ -35,7 +36,7 @@ import swal from 'sweetalert';
 export default {
   data() {
     return {
-        API_publicKey:"FLWPUBK_TEST-32bb3bd01e665782f848865e9a79b27c-X"
+        API_publicKey:"FLWPUBK_TEST-81e32bdd0374c120f85cde6e8d114662-X"
     };
   },
 
