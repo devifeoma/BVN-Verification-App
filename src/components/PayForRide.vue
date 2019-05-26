@@ -44,7 +44,7 @@ export default {
         payWithRave() {
             var x = getpaidSetup({
                 PBFPubKey: this.API_publicKey,
-                customer_email: "user@example.com",
+                customer_email: "judith@gmail.com",
                 amount: 2000,
                 currency: "NGN",
                 txref: "rave-123456",
@@ -66,7 +66,7 @@ export default {
                         response.tx.chargeResponseCode == "0"
                     ) {
                         // redirect to a success page
-                        this.$router.push({"name":'Redirect'})
+                        location.replace("/redirect");
                     } else {
                         // redirect to a failure page.
                     }

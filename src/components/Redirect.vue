@@ -2,9 +2,16 @@
   <div>
     <div class="container main_background">
       <div class="row">
-          <div class="redirect">
+        <div class="col-md-4"></div>
+         <div class="col-md-4">
+            <img src="/static/img/success.svg" class="img-success">
+            <!-- <h1>Thank you for riding with us</h1> -->
+         </div>
+          <div class="col-md-4"></div>
+        
+          <!-- <div class="redirect">
               {{message}}
-          </div>
+          </div> -->
         </div>
     </div>
   </div>
@@ -23,8 +30,8 @@ export default {
 
 <style scoped>
 .main_background {
-  margin-top: 20px;
-  margin-bottom: -100px;
+  margin-top: 10px;
+  /* margin-bottom: -100px; */
 }
 .main_page_left img {
   height: 800px;
@@ -54,5 +61,15 @@ export default {
 .redirect{
     display: block;
     margin: auto;
+}
+/* .thank_you{
+  display: block;
+  margin: auto;
+  background-color: red;
+} */
+.img-success{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 250px;
 }
 </style>
