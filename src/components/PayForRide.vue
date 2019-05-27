@@ -9,7 +9,7 @@
             <h1 class="text-center rave_text">Ride Completed</h1>
             <div class="ml-5 mt-3">
               
-            <p><i class="fas fa-user pr-3"></i><strong>Driver:</strong> Damilola Sherriff</p>
+            <p><i class="fas fa-user pr-3"></i><strong>Driver:</strong> Damilola Sheriff</p>
             <p><i class="fas fa-receipt pr-3"></i><strong>Invoice Id:</strong> we56779uhj</p>
              <p class="pl-6"><i class="fas fa-location-arrow pr-3"></i><strong>Location:</strong>6 Badore Ajah, Lagos</p>
             <p class="pl-6"><i class="fas fa-location-arrow pr-3"></i><strong>Destination:</strong> 8 Providence Street, Lekki</p>
