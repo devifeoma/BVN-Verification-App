@@ -70,7 +70,7 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #bbbbbb;
+  background-color: #6c63ff;
   max-height: 100%;
   margin-top: 0px;
   padding-top: 80px;
@@ -93,7 +93,7 @@ ul.footer-list {
   padding-left: 40px;
 }
 .sub-footer {
-  background-color: #aaaaaa;
+  background-color: #3d35c4;
   color: #fff;
   height: 70px;
   padding-top: 30px;
