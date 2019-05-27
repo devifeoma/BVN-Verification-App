@@ -2,10 +2,10 @@
   <div>
     <div class="container main_background">
       <div class="row">
-        <div class="col-md-6 main_page_left">
+        <div class="col-6 main_page_left">
           <img src="/static/img/payment1.svg">
         </div>
-        <div class="col-md-6 main_page_right">
+        <div class="col-6 main_page_right">
           <h1 class="text-center rave_text">Welcome to RaveRide</h1>
           <p class="rave_text_p">Rave Ride is a simple and easy application that makes payment easy and smooth for our customers. You can access your RaveRide application by just using your Bank Verification Number(BVN). RaveRide makes life easy.</p>
           <!-- <div class="text-center"><a class="btn rave_button">Book a Ride</a></div> -->
@@ -21,17 +21,17 @@
           <div class="col-md-12">
             <p class="how_it_works">How RaveRide Works</p>
           </div>
-          <div class="col-md-4 who">
+          <div class="col-4 who">
             <img src="/static/img/request.svg">
             <h5 class="text-center rave_flow">Request for a ride</h5>
             <p class="rave_flow_text">Choose a car that fits your style and budget, then set your location to request a ride.</p>
           </div>
-          <div class="col-md-4 who">
+          <div class="col-4 who">
             <img src="/static/img/ride.svg">
             <h5 class="text-center rave_flow">Move to your destination</h5>
             <p class="rave_flow_text">Watch your driver arrive to your doorstep and move to your desstination.</p>
           </div>
-          <div class="col-md-4 who">
+          <div class="col-4 who">
             <img src="/static/img/pay.svg">
             <h5 class="text-center rave_flow">Complete ride and pay</h5>
             <p class="rave_flow_text">You can easily make payment to your driver using rave ride app.</p>
@@ -56,13 +56,13 @@ export default {
 
  } */
 
- /* @media only screen and (max-width: 600px) { 
-
- } */
+ @media only screen and (max-width: 600px) { 
 .main_background{
   margin-top: 20px;
   margin-bottom: -100px;
 }
+ }
+
 .main_page_left img {
   height: 800px;
   width: 100%;

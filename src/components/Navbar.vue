@@ -17,13 +17,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <router-link to="/Bvn" class="nav-link btn pay_botton">Verify your BVN here</router-link>
+            <router-link to="/Bvn" class="nav-link btn bvn_botton mr-2">Verify your BVN here</router-link>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link pay_botton">|</a>
           </li> -->
           <li class="nav-item">
-            <router-link to="/Pay-for-ride" class="nav-link btn pay_botton">Pay for Ride</router-link>
+            <router-link to="/Pay-for-ride" class="nav-link btn bvn_botton">Pay for Ride</router-link>
           </li>
         </ul>
       </div>
@@ -48,8 +48,10 @@ export default {
   font-size: 30px;
   font-weight: 700;
   font-family: "Acme", sans-serif;
+  color: #ffffff;
 }
-.pay_botton {
-  color: #fff !important;
+.bvn_botton {
+  color: #6c63ff !important;
+  background-color: #ffffff;
 }
 </style>
