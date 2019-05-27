@@ -105,13 +105,13 @@ export default {
   margin-bottom: -100px;
 }
 .main_page_left img {
-  height: 800px;
   width: 100%;
-  margin-top: -170px;
+  margin-top: 15px;
 }
 
 .main_page_right {
-  margin-top: 150px;
+  margin-top: 70px;
+  margin-bottom: 120px;
 }
 
 .rave_button {
