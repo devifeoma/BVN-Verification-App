@@ -6,7 +6,7 @@
           <img src="/static/img/payment1.svg">
         </div>
         <div class="col-md-6 main_page_right">
-            <h1 class="text-center rave_text">Pay for your ride</h1>
+            <h1 class="text-center rave_text">Ride Completed</h1>
             <div class="ml-5 mt-3">
               
             <p><i class="fas fa-user pr-3"></i><strong>Driver:</strong> Damilola Sherriff</p>
