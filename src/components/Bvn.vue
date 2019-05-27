@@ -111,7 +111,7 @@ export default {
 }
 
 .main_page_right {
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 120px;
 }
 
