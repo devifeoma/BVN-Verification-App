@@ -10,8 +10,8 @@ import Axios from 'axios'
 
 Vue.use(BootstrapVue)
 Vue.use(VueProgressBar, {
-  color: 'green',
-  failedColor: '#ffffff',
+  color: 'white',
+  failedColor: 'red',
   height: '5px'
 })
 // Vue.filter('filterProducts', function (value) {})
