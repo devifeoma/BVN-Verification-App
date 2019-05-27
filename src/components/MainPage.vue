@@ -106,7 +106,7 @@ export default {
   font-weight: 600;
   font-family: 'Acme', sans-serif;
   color: 	#6db052;
- margin-top: 55px;
+ margin-top: 130px;
 }
 
 .who img {
