@@ -66,7 +66,7 @@ export default {
                         response.tx.chargeResponseCode == "0"
                     ) {
                         // redirect to a success page
-                        location.replace("/Redirect");
+                        this.$router.push('Redirect') 
                     } else {
                         // redirect to a failure page.
                     }
