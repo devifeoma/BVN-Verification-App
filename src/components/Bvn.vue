@@ -107,10 +107,11 @@ export default {
 .main_page_left img {
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 150px;
 }
 
 .main_page_right {
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 120px;
 }
 

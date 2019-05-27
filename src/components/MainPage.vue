@@ -65,7 +65,7 @@ export default {
 
 .main_page_left img {
   width: 100%;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 .main_page_right {
