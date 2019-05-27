@@ -18,7 +18,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <router-link to="/Bvn" class="nav-link btn bvn_botton mr-2">Verify your BVN here</router-link>
-          </li>
+          </li><br>
           <!-- <li class="nav-item">
             <a class="nav-link pay_botton">|</a>
           </li> -->
@@ -43,6 +43,13 @@ export default {
 .navbar-style {
   background-color: #6c63ff !important;
 }
+/* button.navbar-toggler{
+  background: transparent !important;
+}
+
+.navbar-toggler-icon{
+  background-color: #ffffff;
+} */
 
 .rave_ride {
   font-size: 30px;
