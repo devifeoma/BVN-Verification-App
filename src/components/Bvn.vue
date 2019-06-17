@@ -87,7 +87,7 @@ export default {
           this.$Progress.fail();
           console.log(err);
           swal({
-            title: "Sorry your BNV is not valid",
+            title: "Something went wrong",
             // text: "You clicked the button!",
             icon: "error",
             // type: "danger",

@@ -41,41 +41,41 @@ export default {
   },
 
   methods:{
-        payWithRave() {
-            var x = getpaidSetup({
-                PBFPubKey: this.API_publicKey,
-                customer_email: "judith@gmail.com",
-                amount: 2000,
-                currency: "NGN",
-                txref: "rave-123456",
-                subaccounts: [
-                {
-                    id: "RS_1770B4221C5E9352F4BAD9ED1AA689A5"
-                }
-                ],
-                meta: [{
-                    metaname: "flightID",
-                    metavalue: "AP1234"
-                }],
-                onclose: function() {},
-                callback: function(response) {
-                    var txref = response.tx.txRef; // collect flwRef returned and pass to a server page to complete status check.
-                    console.log("This is the response returned after a charge", response);
-                    if (
-                        response.tx.chargeResponseCode == "00" ||
-                        response.tx.chargeResponseCode == "0"
-                    ) {
-                        // redirect to a success page
-                        // this.$router.push('Redirect') 
-                    } else {
-                        // redirect to a failure page.
-                    }
-
-                    x.close(); // use this to close the modal immediately after payment.
-                }
-            });
+    payWithRave() {
+      var x = getpaidSetup({
+        PBFPubKey: this.API_publicKey,
+        customer_email: "judith@gmail.com",
+        amount: 2000,
+        currency: "NGN",
+        txref: "rave-123456",
+        subaccounts: [
+        {
+          id: "RS_1770B4221C5E9352F4BAD9ED1AA689A5"
         }
+        ],
+        meta: [{
+          metaname: "flightID",
+          metavalue: "AP1234"
+        }],
+        onclose: function() {},
+        callback: function(response) {
+            var txref = response.tx.txRef; // collect flwRef returned and pass to a server page to complete status check.
+            console.log("This is the response returned after a charge", response);
+            if (
+                response.tx.chargeResponseCode == "00" ||
+                response.tx.chargeResponseCode == "0"
+            ) {
+                // redirect to a success page
+                this.$router.push('Redirect'); 
+            } else {
+                // redirect to a failure page.
+            }
+
+            x.close(); // use this to close the modal immediately after payment.
+        }
+      });
     }
+  }
 };
 </script>
 
