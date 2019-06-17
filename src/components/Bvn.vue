@@ -87,7 +87,7 @@ export default {
           this.$Progress.fail();
           console.log(err);
           swal({
-            title: "Something went wrong",
+            title: "Sorry something went wrong",
             // text: "You clicked the button!",
             icon: "error",
             // type: "danger",
